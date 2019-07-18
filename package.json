@@ -20,7 +20,8 @@
   "homepage": "https://github.com/fec4-gandolf/amolgajewar-proxy#readme",
   "dependencies": {
     "dotenv": "^8.0.0",
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "http-proxy": "^1.17.0"
   },
   "devDependencies": {
     "eslint": "^5.3.0",
