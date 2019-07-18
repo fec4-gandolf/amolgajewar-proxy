@@ -21,6 +21,11 @@ For serving front end components on ebay auction page.
 Create .env file in root folder of your project and specify following
 // set port number for express server
 PORT=3000
+// set up service api ports
+MODAL_API_PORT=
+BIDBUY_API_PORT=
+REVIEW_API_PORT=
+ALSOVIEWED_API_PORT=
 
 1 Run 'npm install' for installing project dependecnies,
 

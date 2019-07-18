@@ -4,10 +4,10 @@ const port = process.env.PORT;
 const proxy = require('http-proxy');
 const apiProxy = proxy.createProxyServer();
 
-const modalApi = "http://localhost:3003";
-const bidBuyApi = 'http://localhost:3001';
-const reviewApi = "http://localhost:3002";
-const alsoViewedApi = 'http://localhost:3004';
+const modalApi = `http://localhost:${process.env.MODAL_API_PORT}`;
+const bidBuyApi = `http://localhost:${process.env.BIDBUY_API_PORT}`;
+const reviewApi = `http://localhost:${process.env.REVIEW_API_PORT}`;
+const alsoViewedApi = `http://localhost:${process.env.ALSOVIEWED_API_PORT}`;
 
 
 const app = express();
