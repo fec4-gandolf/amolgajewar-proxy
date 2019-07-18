@@ -27,6 +27,7 @@ BIDBUY_API_PORT=
 REVIEW_API_PORT=
 ALSOVIEWED_API_PORT=
 
+
 1 Run 'npm install' for installing project dependecnies,
 
 2 Run command 'npm run start:dev' which starts express server listening on port number 3000 with nodemon alternative 'npm run start' will start the same without nodemon,
