@@ -30,7 +30,7 @@ PORT=3000
 ## Usage
 1 Once the server is running user can access client components in brower at `http://localhost:3000`
 
-2 User can specify id for ex. `http://localhost:3000/?id=6` to request item details
+2 User can specify id for ex. `http://localhost:3000/?id=6` to request item details like product view, bid buy, reviews and related items list
 
 ## Requirements
 
