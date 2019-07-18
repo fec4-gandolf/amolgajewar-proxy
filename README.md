@@ -1,5 +1,4 @@
 # amolgajewar-proxy
-amol proxy for FEC4
 
 For serving front end components on ebay auction page.
 
