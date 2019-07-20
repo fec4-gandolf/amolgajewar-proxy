@@ -26,6 +26,11 @@ app.all("/items/id/*", function(req, res) {
   apiProxy.web(req, res, {target: bidBuyApi});
 });
 
+app.all("/bid/*", function(req, res) {
+  console.log('redirecting to bidBuyApi');
+  apiProxy.web(req, res, {target: bidBuyApi});
+});
+
 app.all("/reviews/*", function(req, res) {
   console.log('redirecting to reviewApi');
   apiProxy.web(req, res, {target: reviewApi});
